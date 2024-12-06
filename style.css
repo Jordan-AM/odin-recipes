@@ -1,0 +1,23 @@
+body{
+    background-color: rgb(180, 180, 140);
+    color: rgb(235, 235, 235);
+}
+
+.homepage{
+    color: rgb(255, 255, 0);
+    text-shadow: 0 0 8px;
+    background-color: darkgoldenrod;
+    width: fit-content;
+}
+
+a{
+    text-shadow: 0 0 8px yellow;
+    background-color: rgb(235, 235, 235);
+}
+
+ul{
+    background-color: white;
+    width: fit-content;
+    color: limegreen;    
+}
+
