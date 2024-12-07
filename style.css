@@ -6,7 +6,8 @@ body{
 
 h3, h2, h1{
     color: darkslategray;
-    border-left: thick solid salmon;
+    border-left: medium solid salmon;
+    border-bottom: medium solid salmon;
     width: fit-content;
     margin-right: auto;
 }
