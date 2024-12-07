@@ -15,6 +15,11 @@ h3, h2, h1{
     margin-left: 30px;
 }
 
+img{
+    width: 450px;
+    height: 380px;
+}
+
 a{
     text-shadow: 0 0 2px black;
     font-weight: bold;
