@@ -1,15 +1,15 @@
 body{
-    background-color:whitesmoke;
+    background-color:lightyellow;
     color:darkslategray
 }
 
-
 h3, h2, h1{
     color: darkslategray;
-    border-left: medium solid salmon;
-    border-bottom: medium solid salmon;
+    border-left: medium solid orange;
+    border-bottom: medium solid orange;
     width: fit-content;
     margin-right: auto;
+    background-color: lightpink;
 }
 
 .menu{
@@ -44,11 +44,17 @@ li{
     margin-bottom: 10px;
 }
 
-p{
-    color: black;
+.homepage, .menu{
+    margin: auto;
+}
+.menu{
+    margin-top: 20px;
+}
+.menu-list{
+    display: inline-flex;
+    list-style-type: none;
 }
 
-.homepage, .menu, .menu-list{
-    margin-left: auto;
-    margin-right: auto;
+.menu-list li{
+    margin: 20px;
 }
