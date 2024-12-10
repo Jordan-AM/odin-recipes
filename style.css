@@ -1,6 +1,6 @@
 *{
     box-sizing: border-box;
-    /* outline: auto; */
+    outline: auto;
     padding: 0px;
     margin: 0px;
     font-family: 'Times New Roman', Times, serif;
@@ -9,10 +9,7 @@
 body{
     background-color:burlywood;
     color:darkslategray;
-}
-
-.homepage{
-    margin: 25px;
+    margin: 20px;
     min-height: 300px;
     display: flex;
     flex-direction: column;
@@ -50,10 +47,11 @@ body{
 }
 
 .item-menu{
-    background-color: lightgoldenrodyellow;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: space-between;
+    align-items: center;
+    background-color: lightgoldenrodyellow;
     padding: 10px;
 }
 
