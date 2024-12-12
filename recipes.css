@@ -4,12 +4,74 @@
     padding: 0px;
     margin: 0px;
     font-family: "Times New Roman", Times, serif;
-  }
-  
-  body {
+}
+
+html{
     background-color: burlywood;
+}
+  
+body {
+    background-color: lightyellow;
     color: darkslategray;
-    margin: 20px;
+    width: 500px;
+    margin: 10px auto;
+    gap: 10px;
+    padding: 5px;
     display: flex;
     flex-direction: column;
-  }
+    align-items: center;
+    justify-content: center;
+}
+
+.header{
+    text-align: center;
+    padding: 20px;
+    background-color: lightyellow;
+    border-bottom: 5px solid salmon;
+}
+.homepage-link{
+    text-decoration: none;
+}
+
+.presentation{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 10px;
+    gap: 10px 0px;
+    background-color:  lightyellow;
+    width:fit-content;
+    border-bottom: 5px solid salmon;
+}
+
+.description, .ingredients{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 500px;
+    padding: 10px;
+    gap: 5px;
+    background-color: lightyellow;
+    border-bottom: 5px solid salmon;
+}
+
+.ingredients-list{
+    list-style-type: none;
+}
+
+.steps{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.steps-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 450px;
+    gap: 5px;
+}
