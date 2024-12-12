@@ -1,80 +1,75 @@
-*{
-    box-sizing: border-box;
-    /* outline: auto; */
-    padding: 0px;
-    margin: 0px;
-    font-family: 'Times New Roman', Times, serif;
+* {
+  box-sizing: border-box;
+  /* outline: auto; */
+  padding: 0px;
+  margin: 0px;
+  font-family: "Times New Roman", Times, serif;
 }
 
-body{
-    background-color:burlywood;
-    color:darkslategray;
-    margin: 20px;
-    min-height: 300px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+body {
+  background-color: burlywood;
+  color: darkslategray;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
 }
 
-.header{
-    padding: 20px;
-    background-color: lightgoldenrodyellow;
-    display: flex;
+.header {
+  padding: 20px;
+  background-color: lightgoldenrodyellow;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.made-for-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.odin-link {
+  padding: 0 0 40 0;
+  font-size: larger;
+  font-weight: 1000;
+}
+
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  min-height: 150px;
+  margin: 30px 15px;
+  gap: 10px;
+}
+
+.item-menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: lightgoldenrodyellow;
+  padding: 10px;
+}
+
+.sandwich-header {
+  margin-bottom: 20px;
+}
+
+.sandwich-list {
+  list-style-type: none;
+}
+
+.list .item {
+  padding: 5px 0px;
+}
+
+@media (max-width: 650px) {
+  .menu {
+    align-items: center;
     justify-content: space-evenly;
-    align-items: center;
-    flex-wrap: wrap;
-}
-
-.made-for-top{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.odin-link{
-    padding: 0 0 40 0;
-    font-size: larger;
-    font-weight: 1000;
-}
-
-.menu{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    min-height: 150px;
-    margin: 10px;   
-    gap: 10px;
-}
-
-.item-menu{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    background-color: lightgoldenrodyellow;
-    padding: 10px;
-}
-
-.sandwich-header{
-    margin-bottom: 20px;
-    
-}
-
-.sandwich-list{
-    list-style-type: none;
-    
-}
-
-.list .item{
-    padding: 5px 0px;
-    
-}
-
-@media (max-width: 650px){
-    .menu{
-        align-items: center;
-        justify-content: space-evenly;
-        min-height: auto;
-        gap: 1rem;
-    }
+    min-height: auto;
+    gap: 1rem;
+  }
 }
